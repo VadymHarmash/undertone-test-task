@@ -1,0 +1,10 @@
+@import "common-styles/index.scss";
+
+.App{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    // padding: 100px 0;
+}
