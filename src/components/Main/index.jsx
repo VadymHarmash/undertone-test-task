@@ -44,7 +44,7 @@ export default function Main() {
                             <img src={assets.icons.samsungLogo} alt="Samsung" />
                             <span>Bespoke Jet™</span>
                         </div>
-                        <div className={styles.main__container__main}>
+                        <div className={`${styles.main__container__main} ${styles.appear}`}>
                             <p>
                                 See why the Bespoke Jet™ is “so good” it made this{' '}
                                 <img src={assets.icons.kitchnLogo} alt="kitchn" /> journalist cry
